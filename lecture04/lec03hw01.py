@@ -9,7 +9,6 @@ while True:
 
     except:
         print("Некорректный ввод")
-
 print("N =", n)
 
 #Решето Эратосфена
