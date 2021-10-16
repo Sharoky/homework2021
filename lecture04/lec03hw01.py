@@ -12,6 +12,7 @@ while True:
 
 print("N =", n)
 
+#Решето Эратосфена
 a=[]
 
 for i in range(2,n):
