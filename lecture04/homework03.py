@@ -1,6 +1,5 @@
 #Генератор случайных чисел
 import random
-from typing import List
 
 while True:
    print("Введите число, до которого будет сгенерирован список")
@@ -16,12 +15,14 @@ while True:
    except:
       print("Некорректный ввод данных")
 
+      
+#Сортировка Bogosort
 a=[]
 for i in range(num):
    a.append(random.randint(0,numlast-1))
 
 
-#Сортировка Bogosort
+
 r=sorted(a)
 
 while a!=r:
